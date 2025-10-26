@@ -1,0 +1,10 @@
+Cara mendaftar:
+- Klik "Masuk" pada navbar
+- Klik "Daftar"
+- Masukkan data-data seperti username, nama lengkap, email, dan password
+- Klik tombol "Daftar"
+
+Cara masuk:
+- Klik "Masuk" pada navbar
+- Masukkan data-data seperti username dan password
+- Klik tombol "Masuk"

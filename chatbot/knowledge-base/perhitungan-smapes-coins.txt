@@ -1,0 +1,5 @@
+Tiap 2000 gr limbah kertas yang layak didaur ulang dapat ditukarkan dengan 50 SMAPS Coins dan berlaku kelipatannya.
+
+Jumlah SMAPES Coins: floor(b * 50 / 2000)
+b = Berat limbah kertas
+Hasilnya 0 JIKA berat limbah kertas yang ditanyakan kurang dari 2000 gr (b < 2000).
