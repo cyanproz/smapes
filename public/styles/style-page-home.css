@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+.hero.home {
+    height: max-content;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+#page-contents > section:nth-of-type(2) {
+    padding: 0;
+}

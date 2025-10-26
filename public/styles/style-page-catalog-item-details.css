@@ -1,0 +1,9 @@
+@container page-contents (max-width: 640px) {
+    .owl-carousel section:not(.hero):nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .owl-carousel section:not(.hero):nth-of-type(even) {
+        flex-direction: column;
+    }
+}

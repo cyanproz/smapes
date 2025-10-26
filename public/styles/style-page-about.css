@@ -1,0 +1,44 @@
+.owl-carousel section {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.owl-carousel section:not(.hero):nth-of-type(odd) {
+    flex-direction: row-reverse;
+}
+
+.owl-carousel section:not(.hero):nth-of-type(even) {
+    flex-direction: row;
+}
+
+@container page-contents (max-width: 720px) {
+    .owl-carousel section {
+        align-items: center;
+    }
+
+    .owl-carousel section:not(.hero):nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .owl-carousel section:not(.hero):nth-of-type(even) {
+        flex-direction: column;
+    }
+}
+
+.owl-carousel section > img {
+    /* float: right; */
+    /* clear: right; */
+    aspect-ratio: 1/1;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+video.tips-video {
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 80px);
+}

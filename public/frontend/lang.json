@@ -1,0 +1,34 @@
+{
+    "en": {
+        "home": {
+            "about": "About",
+            "dropIt": "Drop Your Papers",
+            "shops": "Shops"
+        },
+        "about": {
+            "title_1": "About",
+            "paragraph_1": "SMAPES is a smart solution in utilizing paper waste, yaitu dengan cara mengumpulkan limbah-limbah kertas dari berbagai tempat seperti rumah tangga, kantor, sekolah, rumah sakit, mall, atau berbagai tempat lainnya. Sampah dikumpulkan di tiap <strong>SMAPES Corner</strong>, kemudian dipilah dan ditimbang oleh <strong>SMAPES Warrior</strong>. Beratnya limbah kertas akan menentukan banyaknya <strong>SMAPES Coins</strong> yang akan kamu dapatkan.",
+            
+            "title_2": "What Are SMAPES Coins?",
+            "title_3": "Who Is a SMAPES Warrior?",
+            "title_4": "Who Is a SMAPES Buddy?",
+            "title_5": "Why SMAPES?"
+        }
+    },
+    "id": {
+        "home": {
+            "about": "About",
+            "dropIt": "Drop Your Papers",
+            "shops": "Shops"
+        },
+        "about": {
+            "title_1": "Tentang",
+            "paragraph_1":"SMAPES adalah sebuah solusi cerdas dalam memanfaatkan limbah kertas, yaitu dengan cara mengumpulkan limbah-limbah kertas dari berbagai tempat seperti rumah tangga, kantor, sekolah, rumah sakit, mall, atau berbagai tempat lainnya. Sampah dikumpulkan di tiap <strong>SMAPES Corner</strong>, kemudian dipilah dan ditimbang oleh <strong>SMAPES Warrior</strong>. Beratnya limbah kertas akan menentukan banyaknya <strong>SMAPES Coins</strong> yang akan kamu dapatkan.",
+
+            "title_2": "Apa Itu SMAPES Coins?",
+            "title_3": "Siapa Itu SMAPES Warrior?",
+            "title_4": "Siapa Itu SMAPES Buddy?",
+            "title_5": "Kenapa SMAPES?"
+        }
+    }
+}
