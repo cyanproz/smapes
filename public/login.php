@@ -1,50 +1,12 @@
 <?php
 require "site-config.php";
 require "backend/init.php";
-
-// // Handle Logout
-// if (isset($_POST['logout'])) {
-//   $auth->logout();
-
-//   // Destroy session
-//   session_unset();
-//   session_destroy();
-// }
-
-// // if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-// //   // Process your form
-// //   // e.g., login, save to DB, etc.
-  
-// //   // Then redirect
-// //   header("Location: " . $_SERVER['PHP_SELF']);
-// //   exit;
-// // }
-
-// $invalidLogin = true;
-
-// // Handle login
-// if ($_POST && isset($_POST['username'], $_POST['password'])) {
-//   if ($auth->login($_POST['username'], $_POST['password'])) {
-//     // echo "Welcome, ";
-//     header("Location: .");
-//     exit;
-//   } else {
-//     echo "Invalid login!";
-//   }
-// }
 ?>
 <!DOCTYPE html>
 <html lang="en" class="theme--light">
   <head>
     <?php include "partials/html-head.php"; ?>
   </head>
-
-  <!-- 
-  Pages
-  About SMAPES
-  Paper Waste Management System
-  Shop
-   -->
   
   <body>
     <div id='page-header-contents-footer-layout'>
@@ -70,10 +32,6 @@ require "backend/init.php";
             </button>
 
             <input type="password" tabindex="2" name="password" id="password-input" placeholder="Password" required>
-            <!-- <label id="show-password-label">
-              <input type="checkbox" name="" id="show-password-checkbox">
-              Tampilkan password
-            </label> -->
           </div>
           
           <button type="submit" name="login" tabindex="4" id="submit-button" class="success">Masuk</button>
