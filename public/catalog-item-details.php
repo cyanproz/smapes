@@ -8,13 +8,6 @@ require "backend/init.php";
     <?php include "partials/html-head.php"; ?>
     <link rel="stylesheet" href="styles/style-page-catalog-item-details.css"/>
   </head>
-
-  <!-- 
-  Pages
-  About SMAPES
-  Paper Waste Management System
-  Shop
-   -->
   
   <body>
     <div id='page-header-contents-footer-layout'>
@@ -24,13 +17,9 @@ require "backend/init.php";
         <!-- Hero -->
         <?php include "partials/page-header.php"; ?>
         
+        <!-- Catalog Item Details -->
         <section class="container">
           <div style="margin-bottom: 1em;">
-            <!-- <a href="catalog.php" class="button-link">
-              <span class='icon material-symbols-outlined'>
-                arrow_back
-              </span>
-            </a> -->
             <a href="catalog.php" class="button-link" style="display: inline-flex; align-items: center;">
               <span class="icon icon--left material-symbols-outlined">
                 arrow_back_ios_new

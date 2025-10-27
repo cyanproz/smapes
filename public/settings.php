@@ -6,22 +6,13 @@ require "backend/init.php";
 <html lang="en" class="theme--light">
   <head>
     <?php include "partials/html-head.php"; ?>
-    <!-- <link rel="stylesheet" href="styles/style-page-about.css"/> -->
   </head>
-
-  <!-- 
-  Pages
-  About SMAPES
-  Paper Waste Management System
-  Shop
-   -->
   
   <body>
     <div id='page-header-contents-footer-layout'>
       <?php include "partials/page-navbar.php"; ?>
       
       <div id="page-contents">
-        <!-- Hero -->
         <?php // include "partials/page-header.php"; ?>
 
         <section class="container">
@@ -57,11 +48,6 @@ require "backend/init.php";
 
             <tab-page label="Riwayat Belanja" id="settings-tab-group__shopping-history">
               <h3>Riwayat Belanja</h3>
-                            
-              <!-- <p>
-                Hi <strong><?= $auth->getUser()["username"] ?></strong>! This is your history of your SMAPES Coins
-                usages with your shoppinh.
-              </p> -->
               
               <?php if ($auth->isLoggedIn()): ?>
               <p>
@@ -118,12 +104,6 @@ require "backend/init.php";
 
       <?php include "partials/page-footer.php"; ?>
     </div>
-
-    <!-- <button id="chatbot-button" class="success">
-      <span class='icon material-symbols-outlined'>
-        smart_toy
-      </span>
-    </button> -->
     
     <?php include "partials/chatbot.php"; ?>
 

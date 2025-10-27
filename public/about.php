@@ -8,16 +8,8 @@ require "backend/init.php";
     <?php include "partials/html-head.php"; ?>
     <link rel="stylesheet" href="styles/style-page-about.css"/>
   </head>
-
-  <!-- 
-  Pages
-  About SMAPES
-  Paper Waste Management System
-  Shop
-   -->
   
-  <body onload="// CommonLib.setupPageHandlebars(langData)">
-    <!-- <script type="text/x-handlebars-template" id="handlebars-page-template"> -->
+  <body>
     <div id='page-header-contents-footer-layout'>
       <?php include "partials/page-navbar.php"; ?>
       
@@ -137,17 +129,10 @@ require "backend/init.php";
 
       <?php include "partials/page-footer.php"; ?>
     </div>
-
-    <!-- <button id="chatbot-button" class="success">
-      <span class='icon material-symbols-outlined'>
-        smart_toy
-      </span>
-    </button> -->
     
     <?php include "partials/chatbot.php"; ?>
     
     <script src="https://alif.prdn.net/common-script.js"></script>
     <script src="scripts/script-main.js"></script>
-    <!-- </script> -->
   </body>
 </html>

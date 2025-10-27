@@ -8,15 +8,8 @@ require "backend/init.php";
     <?php include "partials/html-head.php"; ?>
     <link rel="stylesheet" href="styles/style-page-catalog.css"/>
   </head>
-
-  <!-- 
-  Pages
-  About SMAPES
-  Paper Waste Management System
-  Shop
-   -->
   
-  <body onload="// CommonLib.setupPageHandlebars()">
+  <body>
     <div id='page-header-contents-footer-layout'>
       <?php include "partials/page-navbar.php"; ?>
       
@@ -24,6 +17,7 @@ require "backend/init.php";
         <!-- Hero -->
         <?php include "partials/page-header.php"; ?>
 
+        <!-- Catalog -->
         <section class="container">
           <h2>Katalog</h2>
 
@@ -45,37 +39,8 @@ require "backend/init.php";
                   <?= $item["price_coins"] ?> S. Coins
                 </h3>
               </div>
-              <!-- <button>
-                <span class="icon material-symbols-outlined">
-                  add_shopping_cart
-                </span>
-              </button> -->
             </a>
             <?php endforeach; ?>
-
-            <!-- <a class="button-link shopping-item" href="catalog-item-details.php?item=photo-frame">
-              <img src="images/catalog/2.jpg" alt="" srcset="" class="catalog-product-image">
-              <div>
-                <h4>Bingkai Foto</h4>
-                <h3>Rp. 5.000 + 50 S Coins</h3>
-              </div>
-            </a>
-
-            <a class="button-link shopping-item" href="catalog-item-details.php?item=calendar">
-              <img src="images/catalog/3.jpg" alt="" srcset="" class="catalog-product-image">
-              <div>
-                <h4>Kalender</h4>
-                <h3>Rp. 10.000 + 100 S Coins</h3>
-              </div>
-            </a>
-
-            <a class="button-link shopping-item" href="catalog-item-details.php?item=book">
-              <img src="images/catalog/4.jpg" alt="" srcset="" class="catalog-product-image">
-              <div>
-                <h4>Buku</h4>
-                <h3>Rp. 15.000 + 150 S Coins</h3>
-              </div>
-            </a> -->
           </div>
         </section>
       </div>
